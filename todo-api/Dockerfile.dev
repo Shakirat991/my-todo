@@ -2,7 +2,7 @@ FROM node:8.15.1
 
 WORKDIR "/app"
 
-copy ./package.json ./
+COPY ./package.json ./
 
 RUN npm install
 
